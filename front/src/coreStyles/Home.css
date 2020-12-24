@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&display=swap');
+body{
+    background-color: black;
+}
+.containerofcontainer{
+  position: relative;
+}
+h1{
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: 0.3rem;
+    font-size: xx-large;
+    color: white;
+  }
+
+.contacts{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.userids{
+  color: #ff1493;
+}
+#modalusername{
+  display: flex;
+  flex-direction: row;
+  background-color: #ff1493;
+  color: white;
+  padding: 2%;
+  justify-content: space-evenly;
+}
+#modalusername > p{
+  color: white;
+}
+.modalusernameshare{
+  background-color: coral;
+  border-radius: 5px;
+  padding: 5%;
+}
+.abcd{
+  background-color: black;
+  color: red;
+}
+.sideNavbar{
+    background-color: #ff1493;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #ff1493;
+    margin-left: 80vw;
+    height: 40vh;
+    overflow: hidden;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+.flex-container > div {
+    width: 60px;
+    text-align: center;
+  }
+.sidelogo{
+  color: white;
+}
+.copyurlbutton{
+  background-color: coral;
+  border-radius: 5px;
+  
+}

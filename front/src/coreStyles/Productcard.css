@@ -1,0 +1,48 @@
+.cards{
+    border-radius: 10px;
+      width: 40vw;
+      height: 40vh;
+      border: 15px #FF1493 solid;
+    border-bottom-width: 30px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+  }
+.cards img {
+      height: 100%;
+      width: 100%;
+    }
+.cards video{
+    height: 100%;
+    width: 100%;
+  }
+  .link{
+      list-style: none;
+      text-align: center;
+      color: white;
+  }  
+    
+  .btn-round {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  .product-btns
+  {
+      display: flex;
+      justify-content: space-evenly;
+  }
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+    color: white;
+    font-size: small;
+  }
+  .view{
+    margin-right: 10%;
+    font-size: 1.5rem;
+  }

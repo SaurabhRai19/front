@@ -1,0 +1,165 @@
+#corediv{
+    margin: 0;
+}
+html{
+    font-size: 16px;
+}
+@media screen and (min-width: 500px){
+    html{
+      font-size: 18px;
+    }
+  }
+  @media screen and (min-width: 570px){
+    html{
+      font-size: 19px;
+    }
+  } 
+@media screen and (min-width: 1000px){
+    html{
+      font-size: 22px;
+    }
+}
+#circle {
+    width: 25vw;
+    height: 15vh;
+    background: white;
+    border-radius: 50%;
+    border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  margin-left: 15%;
+}
+.username_container{
+    background: #FF1493;
+    width: 100%;
+    height: 25vh;
+    padding-left: 35%;
+    padding-right: 30%;
+    padding-top: 10px;
+}
+.username_container > p{
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 3%;
+    font-size: 2rem;
+    position: absolute;
+}
+.container_elements{
+    margin-top: 2rem;
+}
+.previous_orders{
+    margin: 20px;
+    width: 100%;
+    height: 25vh;
+}
+.previous_orders > p{
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: white;
+    letter-spacing: 0.2em;
+}
+
+.previous_orders_card{
+    width: 40vw;
+    height: 16vh;
+    background: white; 
+    margin: 0 0 10% 10%;
+}
+#first_card{
+    margin-left: 0;
+
+}
+.previous_orders_card div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.previous_order_card_image{
+    width: 100%;
+    height: 10vh;
+}
+.previous_order_cards_container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.preferences{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+.preferences > p{
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: white;
+    letter-spacing: 0.2em;
+}
+.preference_card{
+    background: #FF1493;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.preference_card p{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+#address_tab{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#roa_tab{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.logos{
+    margin-right: 10%;
+    margin-left: 2%;
+    margin-top: 10px;
+}
+.preference_card .rightlogo{
+    margin-left: 90%;
+}
+
+
+.buttonscon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    font-size: 1.2rem;
+}
+.buttons{
+    background-color: #FF1493;
+    width: 35vw;
+    height: 8vh;
+    border-radius: 5px;
+    color: white;
+    margin: 2%;
+}
+button:hover{
+    background-color: #ff1493;
+}
+.notloggedin{
+    text-align: center;
+}
+.signout{
+    margin-left: 44vw;
+    font-size: medium;
+    text-decoration: underline;
+}
+.notloggedin{
+    margin-top: 15vh;
+}

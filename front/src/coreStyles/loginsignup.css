@@ -1,0 +1,26 @@
+.logincontainer{
+    margin: 0;
+    padding: 5%;
+}
+.logincontainer > h2 {
+    background-color: #ff1493;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2%;
+}
+.colorbutton{
+    background-color: #ff1493;
+    color: white;
+}
+.alreadyhaveacc{
+    color: white;
+    text-decoration: underline;
+    text-align: right;
+    margin-right: 5%;
+}
+#passasphoneno{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
